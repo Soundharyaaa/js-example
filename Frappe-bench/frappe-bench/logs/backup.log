@@ -1,0 +1,18 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_9f27b10e86d3d534 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9f27b10e86d3d534 | /usr/bin/gzip >> ./todo.local/private/backups/20251231_120001-todo_local-database.sql.gz
+
+Backup Summary for todo.local at 2025-12-31 12:00:02.023243
+Config  : ./todo.local/private/backups/20251231_120001-todo_local-site_config_backup.json 94.0B
+Database: ./todo.local/private/backups/20251231_120001-todo_local-database.sql.gz         226.7KiB
+Backup for Site todo.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9f27b10e86d3d534 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9f27b10e86d3d534 | /usr/bin/gzip >> ./todo.local/private/backups/20251231_180001-todo_local-database.sql.gz
+
+Backup Summary for todo.local at 2025-12-31 18:00:02.093221
+Config  : ./todo.local/private/backups/20251231_180001-todo_local-site_config_backup.json 94.0B
+Database: ./todo.local/private/backups/20251231_180001-todo_local-database.sql.gz         244.5KiB
+Backup for Site todo.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9f27b10e86d3d534 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9f27b10e86d3d534 | /usr/bin/gzip >> ./todo.local/private/backups/20260102_120001-todo_local-database.sql.gz
+
+Backup Summary for todo.local at 2026-01-02 12:00:02.183387
+Config  : ./todo.local/private/backups/20260102_120001-todo_local-site_config_backup.json 94.0B
+Database: ./todo.local/private/backups/20260102_120001-todo_local-database.sql.gz         245.4KiB
+Backup for Site todo.local has been successfully completed

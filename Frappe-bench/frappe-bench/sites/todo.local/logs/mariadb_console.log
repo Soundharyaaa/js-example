@@ -1,0 +1,12 @@
+_HiStOrY_V2_
+SHOW\040DATABASES;
+USE\040_9f27b10e86d3d534\040\040|
+|\040information_schema
+USE\040_9f27b10e86d3d534_information_schema
+EXIT
+exit()
+USE\040_9f27b10e86d3d534_information_schema
+USE\040_9f27b10e86d3d534\040information_schema
+SHOW\040INDEX\040FROM\040`tabdaily\040todo`;
+SHOW\040INDEX\040FROM\040`daily\040todo`;
+SHOW\040INDEX\040FROM\040`tabdaily\040todo`;
